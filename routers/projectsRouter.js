@@ -115,18 +115,6 @@ function validateId(req, res, next) {
     next();
   };
   
-//   function validateAction(req, res, next) {
-//     const body = req.body;
-  
-//     !body || body === {}?
-//       res.status(400).json({message: "missing action data"})
-//       :
-//     !body.description ?
-//       res.status(400).json({message: "missing required description field"})
-//       :
-//     next();
-//   };
-  
 
 
 module.exports = router;
